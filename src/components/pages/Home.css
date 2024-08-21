@@ -1,0 +1,37 @@
+.home {
+    padding: 5% 10%;
+    display: grid;
+    grid-template-rows: 350px 600px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "bio bio skills skills"
+    "portfolio portfolio portfolio contact";
+}
+
+.bio {
+    grid-area: bio;
+    background-color: red;
+    margin: 0 5% 0 0;
+    border-radius: 2%;
+}
+
+.skills {
+    grid-area: skills;
+    background-color: red;
+    margin: 0;
+    border-radius: 2%;
+}
+
+.portfolio {
+    grid-area: portfolio;
+    background-color: red;
+    margin: 3% 3% 0 0;
+    border-radius: 2%;
+}
+
+.contact {
+    grid-area: contact;
+    background-color: red;
+    margin: 10% 0 0 0;
+    border-radius: 2%;
+}

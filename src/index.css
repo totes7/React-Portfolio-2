@@ -1,0 +1,21 @@
+/* Google Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+/* General */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#root {
+  font-family: "Roboto Mono";
+  min-height: 100vh;
+  background-color: black;
+}
