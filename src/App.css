@@ -1,9 +1,18 @@
 :root {
   --bg-main: whitesmoke;
-  --bg-second: rgba(190, 190, 190, 0.8);
-  --bg-second-hover: rgba(190, 190, 190, 0.5);
+  --bg-second: rgb(10, 70, 161);
+  --bg-second-hover: white;
+  --bg-third: rgb(29, 161, 242);
 }
 
 .br-2 {
   border-radius: 2%;
+}
+
+.bs {
+  box-shadow: 5px 5px 20px black;
+}
+
+.pointer {
+  cursor: pointer;
 }

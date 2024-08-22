@@ -1,5 +1,5 @@
 .home {
-  background-color: var(--bg-main);
+  background-color: var(--bg-third);
   padding: 5% 10%;
   display: grid;
   grid-template-rows: 350px 600px;
@@ -13,9 +13,8 @@
 
 .bio {
   grid-area: bio;
-  background-color: var(--bg-second);
+  background-color: var(--bg-main);
   margin: 0 5% 0 0;
-  box-shadow: 5px 5px 20px black;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -41,9 +40,8 @@
 
 .skills {
   grid-area: skills;
-  background-color: var(--bg-second);
+  background-color: var(--bg-main);
   margin: 0;
-  box-shadow: 5px 5px 20px black;
   text-align: center;
   padding: 5%;
   display: grid;
@@ -91,9 +89,8 @@
 
 .portfolio {
   grid-area: portfolio;
-  background-color: var(--bg-second);
+  background-color: var(--bg-main);
   margin: 3% 3% 0 0;
-  box-shadow: 5px 5px 20px black;
 }
 
 .portfolio:hover {
@@ -104,9 +101,8 @@
 
 .contact {
   grid-area: contact;
-  background-color: var(--bg-second);
+  background-color: var(--bg-main);
   margin: 10% 0 0 0;
-  box-shadow: 5px 5px 20px black;
 }
 
 .contact:hover {
@@ -117,7 +113,6 @@
 
 @media screen and (max-width: 960px) {
   .home {
-    background-color: var(--bg-main);
     padding: 5% 10%;
     display: grid;
     grid-template-rows: 250px 500px 200px;
