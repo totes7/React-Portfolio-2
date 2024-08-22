@@ -34,7 +34,7 @@
   }
   
   .navbar-logo a:hover {
-    color: red;
+    color: var(--bg-second);
   }
 
   .navbar-logo img {
@@ -58,7 +58,7 @@
   }
   
   .dropdown-button {
-    color: rgb(242, 242, 242);
+    color: var(--bg-main);
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -71,7 +71,7 @@
   }
   
   .nav-links {
-    color: rgb(242, 242, 242);
+    color: var(--bg-main);
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -81,11 +81,11 @@
 
   
   .nav-links:hover {
-    color: red;
+    color: var(--bg-second);
   }
   
   .fa-bars {
-    color: rgb(242, 242, 242);
+    color: var(--bg-main);
   }
   
   .menu-icon {
@@ -139,7 +139,7 @@
     }
   
     .fa-times {
-      color: rgb(242, 242, 242);
+      color: var(--bg-main);
       font-size: 2rem;
     }
   }

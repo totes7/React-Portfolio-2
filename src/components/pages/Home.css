@@ -1,37 +1,121 @@
 .home {
-    padding: 5% 10%;
-    display: grid;
-    grid-template-rows: 350px 600px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
+  background-color: var(--bg-main);
+  padding: 5% 10%;
+  display: grid;
+  grid-template-rows: 350px 600px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
     "bio bio skills skills"
     "portfolio portfolio portfolio contact";
 }
 
+/* BIO SECTION */
+
 .bio {
-    grid-area: bio;
-    background-color: red;
-    margin: 0 5% 0 0;
-    border-radius: 2%;
+  grid-area: bio;
+  background-color: var(--bg-second);
+  margin: 0 5% 0 0;
+  box-shadow: 5px 5px 20px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 5%;
+  font-size: 16px;
 }
+
+.bio h1 {
+  font-size: 54px;
+}
+
+.bio h3 {
+  font-size: 30px;
+  padding-bottom: 2%;
+}
+
+/* SKILLS SECTION */
 
 .skills {
-    grid-area: skills;
-    background-color: red;
-    margin: 0;
-    border-radius: 2%;
+  grid-area: skills;
+  background-color: var(--bg-second);
+  margin: 0;
+  box-shadow: 5px 5px 20px black;
 }
+
+/* PORTFOLIO SECTION */
 
 .portfolio {
-    grid-area: portfolio;
-    background-color: red;
-    margin: 3% 3% 0 0;
-    border-radius: 2%;
+  grid-area: portfolio;
+  background-color: var(--bg-second);
+  margin: 3% 3% 0 0;
+  box-shadow: 5px 5px 20px black;
 }
 
+/* CONTACT SECTION */
+
 .contact {
-    grid-area: contact;
-    background-color: red;
-    margin: 10% 0 0 0;
-    border-radius: 2%;
+  grid-area: contact;
+  background-color: var(--bg-second);
+  margin: 10% 0 0 0;
+  box-shadow: 5px 5px 20px black;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 960px) {
+  .home {
+    background-color: var(--bg-main);
+    padding: 5% 10%;
+    display: grid;
+    grid-template-rows: 250px 500px 200px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "bio skills"
+      "portfolio portfolio"
+      "contact contact";
+  }
+
+  .bio {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bio h1 {
+    font-size: 34px;
+  }
+
+  .bio h3 {
+    font-size: 20px;
+  }
+
+  .bio p {
+    display: none;
+  }
+
+  .portfolio {
+    margin: 3% 0 0 0;
+  }
+
+  .contact {
+    margin: 3% 0;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .home {
+    background-color: var(--bg-main);
+    padding: 5%;
+    display: grid;
+    grid-template-rows: 200px 200px 500px 200px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "bio"
+      "skills"
+      "portfolio"
+      "contact";
+  }
+
+  .bio {
+    margin: 3% 0;
+  }
 }
