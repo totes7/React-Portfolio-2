@@ -24,6 +24,10 @@
   font-size: 16px;
 }
 
+.bio:hover {
+  background-color: var(--bg-second-hover);
+}
+
 .bio h1 {
   font-size: 54px;
 }
@@ -40,6 +44,47 @@
   background-color: var(--bg-second);
   margin: 0;
   box-shadow: 5px 5px 20px black;
+  text-align: center;
+  padding: 5%;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "title title title title"
+    "html css react python";
+}
+
+#title {
+  grid-area: title;
+  padding-top: 5%;
+}
+
+#html {
+  grid-area: html;
+  color: orangered;
+}
+
+#css {
+  grid-area: css;
+  color: blue;
+}
+
+#react {
+  grid-area: react;
+  color: rgb(0, 202, 202);
+}
+
+#python {
+  grid-area: python;
+  color: cadetblue;
+}
+
+.skills i {
+  font-size: 100px;
+}
+
+.skills:hover {
+  background-color: var(--bg-second-hover);
 }
 
 /* PORTFOLIO SECTION */
@@ -51,6 +96,10 @@
   box-shadow: 5px 5px 20px black;
 }
 
+.portfolio:hover {
+  background-color: var(--bg-second-hover);
+}
+
 /* CONTACT SECTION */
 
 .contact {
@@ -58,6 +107,10 @@
   background-color: var(--bg-second);
   margin: 10% 0 0 0;
   box-shadow: 5px 5px 20px black;
+}
+
+.contact:hover {
+  background-color: var(--bg-second-hover);
 }
 
 /* MEDIA QUERIES */
@@ -81,7 +134,7 @@
   }
 
   .bio h1 {
-    font-size: 34px;
+    font-size: 32px;
   }
 
   .bio h3 {
@@ -90,6 +143,10 @@
 
   .bio p {
     display: none;
+  }
+
+  .skills i {
+    font-size: 60px;
   }
 
   .portfolio {

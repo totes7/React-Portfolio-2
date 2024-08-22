@@ -1,6 +1,7 @@
 :root {
   --bg-main: whitesmoke;
-  --bg-second: rgba(190, 190, 190, 0.863);
+  --bg-second: rgba(190, 190, 190, 0.8);
+  --bg-second-hover: rgba(190, 190, 190, 0.5);
 }
 
 .br-2 {
