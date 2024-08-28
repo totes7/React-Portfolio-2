@@ -1,0 +1,20 @@
+/*? General ?*/
+
+.card-image-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+figcaption {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5%;
+  font-size: 22px;
+}
+
+.card-info {
+  margin-top: 5%;
+  text-align: justify;
+  line-height: 150%;
+}
+

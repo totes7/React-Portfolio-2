@@ -36,7 +36,7 @@
   }
   
   .navbar-logo a:hover {
-    color: var(--bg-third);
+    color: var(--bg-main);
   }
 
   .navbar-logo img {
@@ -74,7 +74,7 @@
 
   
   .nav-links:hover {
-    color: var(--bg-third);
+    color: var(--bg-main);
   }
   
   .fa-bars {

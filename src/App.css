@@ -1,8 +1,9 @@
 :root {
   --bg-main: whitesmoke;
-  --bg-second: rgb(10, 70, 161);
+  --bg-second: rgb(38, 109, 214);
   --bg-second-hover: white;
-  --bg-third: rgb(29, 161, 242);
+  --bg-third: rgb(3, 136, 245);
+  --bg-third-hover: rgba(190, 199, 207, 0.7);
 }
 
 .br-2 {
