@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../../App.css";
 import "./Home.css";
+import ContactForm from "../ContactForm";
 
 function Home() {
   const [hoverClass1, setHoverClass1] = useState("hidden");
@@ -86,7 +87,10 @@ function Home() {
       </div>
 
       {/* CONTACT SECTION */}
-      <div className="contact br-2 bs pointer"></div>
+      <div className="contact br-2 bs pointer">
+        <h2>Contact</h2>
+        <ContactForm />
+      </div>
     </div>
   );
 }

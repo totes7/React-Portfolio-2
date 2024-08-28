@@ -169,6 +169,8 @@
   grid-area: contact;
   background-color: var(--bg-main);
   margin: 10% 0 0 0;
+  text-align: center;
+  padding: 5%;
 }
 
 .contact:hover {
